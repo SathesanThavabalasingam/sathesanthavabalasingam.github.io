@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regression | Sath Thavabalasingam</title>
+    <link>https://sathesanthavabalasingam.github.io/tag/regression/</link>
+      <atom:link href="https://sathesanthavabalasingam.github.io/tag/regression/index.xml" rel="self" type="application/rss+xml" />
+    <description>Regression</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sathesanthavabalasingam.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Regression</title>
+      <link>https://sathesanthavabalasingam.github.io/tag/regression/</link>
+    </image>
+    
+    <item>
+      <title>Tweedie Loss Function</title>
+      <link>https://sathesanthavabalasingam.github.io/post/tweedie-loss/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://sathesanthavabalasingam.github.io/post/tweedie-loss/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Medium post&lt;/strong&gt;&lt;/a&gt; I discuss the Tweedie distribution and use of the tweedie loss function and how to implement this in Python. When building predictive models, it is not uncommon to observe data with right-skewed distribution and long tail. For example, in a large e-commerce company like Amazon, most users entering the site will likely not make a purchase, and if they do, the value ranges between cents and thousands of dollars. As a consequence we may have oddly shaped &amp;ldquo;zero-inflated&amp;rdquo; distributions with a point mass at zero. Under this circumstance, prediction models may not be well trained if loss functions for other distributions (e.g., RMSE for Gaussian distributions) are used.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
