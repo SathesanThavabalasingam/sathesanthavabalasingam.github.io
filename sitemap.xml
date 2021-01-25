@@ -258,6 +258,21 @@
   </url>
   
   <url>
+    <loc>https://sathesanthavabalasingam.github.io/tag/other/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/project/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/project/wildfire-app/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc></loc>
     <lastmod>2019-03-26T00:00:00+00:00</lastmod>
   </url>
@@ -285,6 +300,16 @@
   <url>
     <loc></loc>
     <lastmod>2019-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/tag/deep-learning/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/project/skipthoughts/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -328,48 +353,48 @@
   </url>
   
   <url>
-    <loc>https://sathesanthavabalasingam.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://sathesanthavabalasingam.github.io/tag/d-prime/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sathesanthavabalasingam.github.io/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://sathesanthavabalasingam.github.io/publication/st-frontpsy-2016/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sathesanthavabalasingam.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://sathesanthavabalasingam.github.io/tag/rhythm/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sathesanthavabalasingam.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sathesanthavabalasingam.github.io/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sathesanthavabalasingam.github.io/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://sathesanthavabalasingam.github.io/tag/timing/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sathesanthavabalasingam.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://sathesanthavabalasingam.github.io/tag/approachavoidance-conflict/</loc>
+    <lastmod>2015-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sathesanthavabalasingam.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://sathesanthavabalasingam.github.io/publication/eo-jneuro-2015/</loc>
+    <lastmod>2015-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2015-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2015-11-11T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
