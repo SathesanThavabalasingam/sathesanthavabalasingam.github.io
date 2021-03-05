@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Sath Thavabalasingam</title>
-    <link>https://sathesanthavabalasingam.github.io/post/</link>
-      <atom:link href="https://sathesanthavabalasingam.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Kubeflow | Sath Thavabalasingam</title>
+    <link>https://sathesanthavabalasingam.github.io/tag/kubeflow/</link>
+      <atom:link href="https://sathesanthavabalasingam.github.io/tag/kubeflow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kubeflow</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Sathesan Thavabalasingam 2021</copyright><lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sathesanthavabalasingam.github.io/images/icon_hu2ef9ecc646f8a390b864227564517363_24715_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>https://sathesanthavabalasingam.github.io/post/</link>
+      <title>Kubeflow</title>
+      <link>https://sathesanthavabalasingam.github.io/tag/kubeflow/</link>
     </image>
-    
-    <item>
-      <title>Tweedie Loss Function</title>
-      <link>https://sathesanthavabalasingam.github.io/post/tweedie-loss/</link>
-      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://sathesanthavabalasingam.github.io/post/tweedie-loss/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;In this &lt;a href=&#34;https://sathesant.medium.com/tweedie-loss-function-395d96883f0b&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Medium post&lt;/strong&gt;&lt;/a&gt; I discuss the Tweedie distribution and use of the tweedie loss function and how to implement this in Python. When building predictive models, it is not uncommon to observe data with right-skewed distribution and long tail. For example, in a large e-commerce company like Amazon, most users entering the site will likely not make a purchase, and if they do, the value ranges between cents and thousands of dollars. As a consequence we may have oddly shaped &amp;ldquo;zero-inflated&amp;rdquo; distributions with a point mass at zero. Under this circumstance, prediction models may not be well trained if loss functions for other distributions (e.g., RMSE for Gaussian distributions) are used.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Using Kale &#43; Katib to save best fitted model</title>

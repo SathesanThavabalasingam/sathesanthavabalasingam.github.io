@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://sathesanthavabalasingam.github.io/tag/kubeflow/</loc>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sathesanthavabalasingam.github.io/tag/loss-function/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
@@ -64,6 +69,11 @@
   
   <url>
     <loc>https://sathesanthavabalasingam.github.io/category/medium-post/</loc>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/tag/mlops/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -84,6 +94,11 @@
   
   <url>
     <loc>https://sathesanthavabalasingam.github.io/post/tweedie-loss/</loc>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/post/kale-katib/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -400,6 +415,10 @@
   <url>
     <loc></loc>
     <lastmod>2015-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sathesanthavabalasingam.github.io/category/tips-/-tricks/</loc>
   </url>
   
 </urlset>

@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Surprisingly little is known about how the brain combines spatial elements to form a coherent percept. Regions that may underlie this process include the hippocampus (HC) and parahippocampal place area (PPA), regions central to spatial perception but whose role in spatial coherency has not been explored. Participants were scanned with functional MRI while they judged whether Escher‐like scenes were possible or impossible. Univariate analyses revealed differential HC and PPA involvement, with greater HC activity during spatial incoherency detection and more PPA activity during spatial coherency detection. Recognition and eye‐tracking data ruled out long‐ or short‐term memory confounds. Multivariate statistics demonstrated spatial coherency‐dependent functional connectivity for the HC, but not PPA, with greater HC connectivity to various brain regions including lateral occipital complex during spatial incoherency detection. We suggest the PPA is preferentially involved during the perception of spatially coherent scenes, whereas the HC binds distinct features to create coherent representations.">
+  <meta name="description" content="In this post on medium, I describe the Tweedie loss function and how it can be used to model zero-inflated data.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/">
+  <link rel="alternate" hreflang="en-us" href="https://sathesanthavabalasingam.github.io/post/kale-katib/">
 
   
 
@@ -265,7 +265,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu2ef9ecc646f8a390b864227564517363_24715_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu2ef9ecc646f8a390b864227564517363_24715_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/">
+  <link rel="canonical" href="https://sathesanthavabalasingam.github.io/post/kale-katib/">
 
   
   
@@ -275,21 +275,20 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Sath Thavabalasingam">
-  <meta property="og:url" content="https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/">
-  <meta property="og:title" content="Perception of impossible scenes reveals differential hippocampal and parahippocampal place area contributions to spatial coherency | Sath Thavabalasingam">
-  <meta property="og:description" content="Surprisingly little is known about how the brain combines spatial elements to form a coherent percept. Regions that may underlie this process include the hippocampus (HC) and parahippocampal place area (PPA), regions central to spatial perception but whose role in spatial coherency has not been explored. Participants were scanned with functional MRI while they judged whether Escher‐like scenes were possible or impossible. Univariate analyses revealed differential HC and PPA involvement, with greater HC activity during spatial incoherency detection and more PPA activity during spatial coherency detection. Recognition and eye‐tracking data ruled out long‐ or short‐term memory confounds. Multivariate statistics demonstrated spatial coherency‐dependent functional connectivity for the HC, but not PPA, with greater HC connectivity to various brain regions including lateral occipital complex during spatial incoherency detection. We suggest the PPA is preferentially involved during the perception of spatially coherent scenes, whereas the HC binds distinct features to create coherent representations."><meta property="og:image" content="https://sathesanthavabalasingam.github.io/images/icon_hu2ef9ecc646f8a390b864227564517363_24715_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://sathesanthavabalasingam.github.io/images/icon_hu2ef9ecc646f8a390b864227564517363_24715_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://sathesanthavabalasingam.github.io/post/kale-katib/">
+  <meta property="og:title" content="Using Kale &#43; Katib to save best fitted model | Sath Thavabalasingam">
+  <meta property="og:description" content="In this post on medium, I describe the Tweedie loss function and how it can be used to model zero-inflated data."><meta property="og:image" content="https://sathesanthavabalasingam.github.io/post/kale-katib/featured.jpg">
+  <meta property="twitter:image" content="https://sathesanthavabalasingam.github.io/post/kale-katib/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-10-22T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2021-01-23T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2017-10-22T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-01-23T00:00:00&#43;00:00">
   
 
   
@@ -301,6 +300,8 @@
 
 
 
+
+  
 
 
 
@@ -308,19 +309,23 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/"
+    "@id": "https://sathesanthavabalasingam.github.io/post/kale-katib/"
   },
-  "headline": "Perception of impossible scenes reveals differential hippocampal and parahippocampal place area contributions to spatial coherency",
+  "headline": "Using Kale + Katib to save best fitted model",
   
-  "datePublished": "2017-10-22T00:00:00Z",
-  "dateModified": "2017-10-22T00:00:00Z",
+  "image": [
+    "https://sathesanthavabalasingam.github.io/post/kale-katib/featured.jpg"
+  ],
+  
+  "datePublished": "2021-01-23T00:00:00Z",
+  "dateModified": "2021-01-23T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Danielle Douglas"
+    "name": "Sathesan Thavabalasingam"
   },
   
   "publisher": {
@@ -331,7 +336,7 @@
       "url": "https://sathesanthavabalasingam.github.io/images/icon_hu2ef9ecc646f8a390b864227564517363_24715_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Surprisingly little is known about how the brain combines spatial elements to form a coherent percept. Regions that may underlie this process include the hippocampus (HC) and parahippocampal place area (PPA), regions central to spatial perception but whose role in spatial coherency has not been explored. Participants were scanned with functional MRI while they judged whether Escher‐like scenes were possible or impossible. Univariate analyses revealed differential HC and PPA involvement, with greater HC activity during spatial incoherency detection and more PPA activity during spatial coherency detection. Recognition and eye‐tracking data ruled out long‐ or short‐term memory confounds. Multivariate statistics demonstrated spatial coherency‐dependent functional connectivity for the HC, but not PPA, with greater HC connectivity to various brain regions including lateral occipital complex during spatial incoherency detection. We suggest the PPA is preferentially involved during the perception of spatially coherent scenes, whereas the HC binds distinct features to create coherent representations."
+  "description": "In this post on medium, I describe the Tweedie loss function and how it can be used to model zero-inflated data."
 }
 </script>
 
@@ -349,7 +354,7 @@
 
 
 
-  <title>Perception of impossible scenes reveals differential hippocampal and parahippocampal place area contributions to spatial coherency | Sath Thavabalasingam</title>
+  <title>Using Kale &#43; Katib to save best fitted model | Sath Thavabalasingam</title>
 
 </head>
 
@@ -687,42 +692,43 @@
   </div>
 
   <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
     
-
-
-
-
-
-
-
-
-<div class="pub">
-
   
 
 
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
 <div class="article-container pt-3">
-  <h1>Perception of impossible scenes reveals differential hippocampal and parahippocampal place area contributions to spatial coherency</h1>
+  <h1>Using Kale &#43; Katib to save best fitted model</h1>
 
+  
+  <p class="page-subtitle">Savings each fitted model and params for hyperparameter tuning with Katib.</p>
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -734,13 +740,8 @@
   <div>
     
 
-  <span >
-      Danielle Douglas</span>, <span class="author-highlighted">
-      Sathesan Thavabalasingam</span>, <span >
-      Zahraa Chorghay</span>, <span >
-      Edward B. O&#39;Neil</span>, <span >
-      Morgan D Barense</span>, <span >
-      Andy C H Lee</span>
+  <span class="author-highlighted">
+      Sathesan Thavabalasingam</span>
   </div>
   
   
@@ -751,13 +752,18 @@
     
       
     
-    October 2017
+    Jan 23, 2021
   </span>
   
 
   
 
   
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
 
   
   
@@ -766,130 +772,170 @@
   
 
   
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tips-/-tricks/">Tips / Tricks</a></span>
   
 
 </div>
 
-    
-
-
-
-
-<div class="btn-links mb-3">
-  
   
 
 
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hipo.22673" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://onlinelibrary.wiley.com/doi/10.1002/hipo.22625" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://doi.org/10.1016/j.neuroimage.2018.05.036" target="_blank" rel="noopener">
-  DOI
-</a>
 
 
 
 </div>
 
 
-  
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 584px;">
+  <div style="position: relative">
+    <img src="/post/kale-katib/featured_hubb6bc194400f8f2608676863b70fedc9_40148_1200x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Build An End-to-End ML Workflow: From Notebook to HP Tuning to Kubeflow Pipelines with Kale</span>
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Surprisingly little is known about how the brain combines spatial elements to form a coherent percept. Regions that may underlie this process include the hippocampus (HC) and parahippocampal place area (PPA), regions central to spatial perception but whose role in spatial coherency has not been explored. Participants were scanned with functional MRI while they judged whether Escher‐like scenes were possible or impossible. Univariate analyses revealed differential HC and PPA involvement, with greater HC activity during spatial incoherency detection and more PPA activity during spatial coherency detection. Recognition and eye‐tracking data ruled out long‐ or short‐term memory confounds. Multivariate statistics demonstrated spatial coherency‐dependent functional connectivity for the HC, but not PPA, with greater HC connectivity to various brain regions including lateral occipital complex during spatial incoherency detection. We suggest the PPA is preferentially involved during the perception of spatially coherent scenes, whereas the HC binds distinct features to create coherent representations.</p>
-    
+    <div class="article-style">
+      <h2 id="overview">Overview</h2>
+<p><a href="https://medium.com/kubeflow/kubeflow-kale-simplify-building-better-ml-pipelines-with-automatic-hyperparameter-tuning-5821747f4fcb" target="_blank" rel="noopener"><strong>Kale</strong></a> can be used to unify the workflow across components of ML projects, and presents a seamless process to create ML pipelines for HP tuning, starting from your Jupyter Notebook. One can use Kale to convert a Jupyter Notebook to a Kubeflow Pipeline without any modification to the original Python code. Within the Kale panel we can enable Hyperparameter tuning with [<strong>Kubeflow Katib</strong>](<a href="https://www.arrikto.com/tutorials/data-science/build-an-end-to-end-ml-workflow-from-notebook-to-hp-tuning-to-kubeflow-pipelines-with-kale/">https://www.arrikto.com/tutorials/data-science/build-an-end-to-end-ml-workflow-from-notebook-to-hp-tuning-to-kubeflow-pipelines-with-kale/</a>.</p>
 
-    
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              Journal article
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-enable-kubeflow-katib-in-kale-panel-of-jupyter-notebook">
+
+
+  <a data-fancybox="" href="https://codelabs.developers.google.com/codelabs/cloud-kubeflow-minikf-kale-katib/img/f4e34fff6a93aa60.png" data-caption="Enable Kubeflow Katib in Kale panel of Jupyter notebook">
+
+
+  <img src="https://codelabs.developers.google.com/codelabs/cloud-kubeflow-minikf-kale-katib/img/f4e34fff6a93aa60.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Enable Kubeflow Katib in Kale panel of Jupyter notebook
+  </figcaption>
+
+
+</figure>
+
+<p>Eventually, Kubeflow Katib will return information about the the best fitted model to the user.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-best-model-result-returned-after-successful-tuning">
+
+
+  <a data-fancybox="" href="https://codelabs.developers.google.com/codelabs/cloud-kubeflow-minikf-kale-katib/img/3b0ce47e548e5afb.png" data-caption="Best model result returned after successful tuning">
+
+
+  <img src="https://codelabs.developers.google.com/codelabs/cloud-kubeflow-minikf-kale-katib/img/3b0ce47e548e5afb.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Best model result returned after successful tuning
+  </figcaption>
+
+
+</figure>
+
+<p>While metadata gets logged during pipeline execution, there were some limitations that I encountered when using Kubeflow Katib.</p>
+<ul>
+<li>When using Katib, there is no apparent way to store fitted models/parameters in a location/registry</li>
+<li>E.g. It would be useful for us to know the name of the best trained model, parameters, and its model location in a storage bucket.</li>
+</ul>
+<p>One workaround is to use &lsquo;kubectl&rsquo; commands to try and save fitted models and parameters in some location (e.g. storage bucket). Disclaimer: This workaround is cumbersome, and requires running Katib trials <strong>sequentially</strong>, which is less than optimal. But hey &ndash; it works for now (until I figure out a better solution)! Some code below to do this:</p>
+<pre><code class="language-python">storage_client = storage.Client()
+
+model_filename = 'model.pkl'
+with open(model_filename, 'wb') as f:
+    pickle.dump(dct, f)
+
+# save model params
+params_filename = 'params.pkl'
+params={'params' : dct.get_params(),'feature_names' : train.columns.to_list()}
+with open(params_filename, 'wb') as f:
+    pickle.dump(params, f)
+
+resul = os.popen('kubectl get experiment -n kubeflow-user').readlines()
+res = [resul[x].split() for x in range(len(resul))]
+res=pd.DataFrame(res[1:], columns=res[0])
+experiment_name = res[res.STATUS=='Running']['NAME'].values[0]    
+
+bucket = storage_client.get_bucket('bm-kubeflow-lab-kubeflowpipelines-default')
+resul = os.popen('kubectl get trial -n kubeflow-user').readlines()
+res = [resul[x].split() for x in range(len(resul))]
+res=pd.DataFrame(res[1:], columns=res[0])
+trial_name = res[res.TYPE=='Running']['NAME'].values[0]
+model_load = bucket.blob('test_upload/{}/{}/{}'.format(experiment_name, trial_name,model_filename))
+model_load.upload_from_filename(model_filename)
+params_load = bucket.blob('test_upload/{}/{}/{}'.format(experiment_name, trial_name,params_filename))
+params_load.upload_from_filename(params_filename)
+
+#store experiment name in bigquery table to track experiment names, and dates in which jobs were run.
+exp_table = pd.DataFrame(data=[experiment_name], columns=['experiment_name'])
+bq_client = bq.Client()
+dataset_ref = bq_client.dataset('project_dataset')
+table_ref = dataset_ref.table('katib_experiments')
+job_config = bq.LoadJobConfig()
+job_config.write_disposition = bq.WriteDisposition.WRITE_TRUNCATE
+job = bq_client.load_table_from_dataframe(dataframe=exp_table, destination=table_ref, job_config=job_config)
+job.result()
+</code></pre>
+<p>After hyperparameter tuning has run sucessfully with Kubeflow Katib, we can access the name of the best trial, go into its associated directory where the fitted model is stored and move this to a separate directory for later access (e.g. for serving scripts)</p>
+<pre><code class="language-python"># check best model and update a seperate &quot;deploy&quot; folder with this model. Might need to put this source code as a final step executed after full pipeline is run.
+resul=os.popen('kubectl -n kubeflow-user get experiment {} -o yaml'.format(experiment_name)).readlines()
+res =[resul[x].split() for x in range(len(resul))]
+res=pd.DataFrame(res)
+best_trial = res[res[0]=='bestTrialName:'][1].values[0]
+if best_trial != '&quot;&quot;':
+    files = bucket.list_blobs(prefix='test_upload/{}/{}/'.format(experiment_name ,best_trial))
+    fileList = [file for file in files]
+    for file in fileList:
+        file_name = file.name.split('/')[-1]
+       bucket.rename_blob(file, 'test_upload/best_models/deploy/{}'.format(file_name))
+</code></pre>
+
     </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Hippocampus</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"><div class="alert alert-note">
-  <div>
-    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  </div>
-</div>
-<div class="alert alert-note">
-  <div>
-    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
-  </div>
-</div>
-<p>Supplementary notes can be added here, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images</a>.</p>
-</div>
 
     
 
@@ -900,15 +946,13 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/hippocampus/">Hippocampus</a>
+  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
   
-  <a class="badge badge-light" href="/tag/memory/">memory</a>
+  <a class="badge badge-light" href="/tag/data-science/">Data Science</a>
   
-  <a class="badge badge-light" href="/tag/time/">Time</a>
+  <a class="badge badge-light" href="/tag/mlops/">MLOps</a>
   
-  <a class="badge badge-light" href="/tag/event-sequences/">Event sequences</a>
-  
-  <a class="badge badge-light" href="/tag/functional-magnetic-resonance-imaging/">Functional magnetic resonance imaging</a>
+  <a class="badge badge-light" href="/tag/kubeflow/">Kubeflow</a>
   
 </div>
 
@@ -925,7 +969,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/&amp;text=Perception%20of%20impossible%20scenes%20reveals%20differential%20hippocampal%20and%20parahippocampal%20place%20area%20contributions%20to%20spatial%20coherency" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://sathesanthavabalasingam.github.io/post/kale-katib/&amp;text=Using%20Kale%20&#43;%20Katib%20to%20save%20best%20fitted%20model" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -938,7 +982,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/&amp;t=Perception%20of%20impossible%20scenes%20reveals%20differential%20hippocampal%20and%20parahippocampal%20place%20area%20contributions%20to%20spatial%20coherency" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://sathesanthavabalasingam.github.io/post/kale-katib/&amp;t=Using%20Kale%20&#43;%20Katib%20to%20save%20best%20fitted%20model" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -951,7 +995,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Perception%20of%20impossible%20scenes%20reveals%20differential%20hippocampal%20and%20parahippocampal%20place%20area%20contributions%20to%20spatial%20coherency&amp;body=https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Using%20Kale%20&#43;%20Katib%20to%20save%20best%20fitted%20model&amp;body=https://sathesanthavabalasingam.github.io/post/kale-katib/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -964,7 +1008,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/&amp;title=Perception%20of%20impossible%20scenes%20reveals%20differential%20hippocampal%20and%20parahippocampal%20place%20area%20contributions%20to%20spatial%20coherency" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://sathesanthavabalasingam.github.io/post/kale-katib/&amp;title=Using%20Kale%20&#43;%20Katib%20to%20save%20best%20fitted%20model" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -977,7 +1021,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Perception%20of%20impossible%20scenes%20reveals%20differential%20hippocampal%20and%20parahippocampal%20place%20area%20contributions%20to%20spatial%20coherency%20https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Using%20Kale%20&#43;%20Katib%20to%20save%20best%20fitted%20model%20https://sathesanthavabalasingam.github.io/post/kale-katib/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -990,7 +1034,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://sathesanthavabalasingam.github.io/publication/dd-hippo-2017/&amp;title=Perception%20of%20impossible%20scenes%20reveals%20differential%20hippocampal%20and%20parahippocampal%20place%20area%20contributions%20to%20spatial%20coherency" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://sathesanthavabalasingam.github.io/post/kale-katib/&amp;title=Using%20Kale%20&#43;%20Katib%20to%20save%20best%20fitted%20model" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1009,12 +1053,6 @@
 
 
   
-  
-    
-
-
-
-
   
     
 
@@ -1131,30 +1169,6 @@
 
 
   
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
 
 
 
@@ -1175,15 +1189,7 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/st-neuroim-2018/">Multivoxel pattern similarity suggests the integration of temporal duration in hippocampal event sequence representations</a></li>
-      
-      <li><a href="/publication/example/">Evidence for the incorporation of temporal duration information in human hippocampal long-term memory sequence representations</a></li>
-      
-      <li><a href="/publication/st-pnas-2019/">Evidence for the incorporation of temporal duration information in human hippocampal long-term memory sequence representations</a></li>
-      
-      <li><a href="/publication/eo-jneuro-2015/">Examining the role of the human hippocampus in approach–avoidance decision making using a novel conflict paradigm and multivariate functional magnetic resonance imaging</a></li>
-      
-      <li><a href="/publication/lee-neuropsy-2020/">The hippocampus contributes to temporal duration memory in the context of event sequences: A cross-species perspective</a></li>
+      <li><a href="/post/tweedie-loss/">Tweedie Loss Function</a></li>
       
     </ul>
   </div>
@@ -1194,7 +1200,7 @@
 
 
   </div>
-</div>
+</article>
   </div>
 
   <div class="page-footer">
